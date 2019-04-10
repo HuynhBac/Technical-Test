@@ -1,0 +1,22 @@
+package Q1;
+
+public class BMWCar {
+	public int maxSpeed2 = 200;
+	
+	
+	public int getMaxSpeed2() {
+		return maxSpeed2;
+	}
+
+
+	public void setMaxSpeed2(int maxSpeed2) {
+		this.maxSpeed2 = maxSpeed2;
+	}
+
+
+	public void Info()
+	{
+		System.out.println("Maxspeed = " + maxSpeed2);
+		
+	}
+}

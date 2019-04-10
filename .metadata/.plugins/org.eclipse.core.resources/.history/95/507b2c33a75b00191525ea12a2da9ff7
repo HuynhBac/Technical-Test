@@ -1,0 +1,16 @@
+package Queation2;
+
+public class main {
+
+	public static void main(String[] args) 
+	{
+		
+		Thread thread = new Thread(new ToyotaCar());
+		thread.start();
+		Thread thread1 = new Thread(new BMWCar());
+		thread1.start();
+
+		
+	}
+
+}

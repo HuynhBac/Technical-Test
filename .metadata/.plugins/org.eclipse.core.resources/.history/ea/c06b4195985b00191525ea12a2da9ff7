@@ -1,0 +1,28 @@
+package Q1;
+
+public class ToyotaCar extends Characteristic
+	{
+		public int maxSpeed1;
+		
+		
+		public int getMaxSpeed1() {
+			return maxSpeed1;
+		}
+
+
+		public void setMaxSpeed1(int maxSpeed1) {
+			this.maxSpeed1 = maxSpeed1;
+		}
+		public void run()
+		{
+			for (int i = 0;i<10;i++)
+			{
+			System.out.println("Toyota Car Characteristic ");
+			super.Info();
+			System.out.println("Maxspeed "+ maxSpeed1);
+			System.out.println(i);
+			System.out.println("------------------");
+			}	
+		}
+		
+	}

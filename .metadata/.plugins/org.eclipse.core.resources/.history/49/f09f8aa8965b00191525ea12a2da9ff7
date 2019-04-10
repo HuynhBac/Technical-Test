@@ -1,0 +1,21 @@
+package Q1;
+
+public class main {
+
+	public static void main(String[] args) 
+	{
+		Characteristic CharacterObject = new Characteristic();
+		CharacterObject.setDoors(4);
+		CharacterObject.setSeat(5);
+		CharacterObject.setWheel(4);
+		
+		
+		
+		ToyotaCar TCarObject = new ToyotaCar();
+		TCarObject.setMaxSpeed1(100);
+		TCarObject.Info();
+				
+
+	}
+
+}

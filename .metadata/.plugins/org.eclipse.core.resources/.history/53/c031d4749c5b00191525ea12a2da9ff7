@@ -1,0 +1,16 @@
+package Question1;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		ToyotaCar TCarObject = new ToyotaCar(); // called object TCarObject in class ToyotaCar
+		TCarObject.setMaxspeed(100);			// set value Maxspeed
+		TCarObject.run();						// called method run()
+
+		BMWCar BMWCarObject = new BMWCar();
+		BMWCarObject.setMaxspeed(200);
+		BMWCarObject.run();
+	}
+
+}

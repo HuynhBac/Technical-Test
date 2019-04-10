@@ -1,0 +1,12 @@
+package Question1;
+
+public class BMWCar extends Characteristic {
+	public void run() {
+		for (int j = 0; j < 10; j++) {
+			System.out.println((j + 1) + ". BMW Car Characteristic");
+			super.Info();
+			// System.out.println(j);
+
+		}
+	}
+}

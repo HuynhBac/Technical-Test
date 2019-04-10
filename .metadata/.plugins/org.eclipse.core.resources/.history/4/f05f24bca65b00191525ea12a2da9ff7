@@ -1,0 +1,23 @@
+package Queation2;
+
+public class main {
+
+	public static void main(String[] args) 
+	{
+		Thread thread = new Thread(new ToyotaCar());
+		thread.start();
+
+	
+		
+		System.out.println("------------------");
+		
+		Characteristic BMWObject = new BMWCar();
+		System.out.println("BMW Car Characteristic");
+		BMWObject.wheel();
+		BMWObject.doors();
+		BMWObject.seats();
+		BMWObject.maxSpeed();
+		
+	}
+
+}

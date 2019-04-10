@@ -1,0 +1,17 @@
+package Question1;
+
+public class Characteristic {
+
+	public final int Wheel = 4;  // set final value of wheel, doors and set
+	public final int doors = 4;
+	public final int seats = 5;
+
+
+	public void Info() {
+		System.out.println("wheel = " + Wheel);
+		System.out.println("doors = " + doors);
+		System.out.println("Seats = " + seats);
+
+	}
+
+}

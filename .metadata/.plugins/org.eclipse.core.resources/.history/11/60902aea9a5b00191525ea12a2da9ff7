@@ -1,0 +1,16 @@
+package Q1;
+
+public class main {
+
+	public static void main(String[] args) 
+	{	
+		ToyotaCar TCarObject = new ToyotaCar();
+		TCarObject.setMaxspeed(100);
+		TCarObject.run();
+		
+		BMWCar BMWCarObject = new BMWCar();
+		BMWCarObject.setMaxspeed(200);
+		BMWCarObject.run();						
+	}
+
+}

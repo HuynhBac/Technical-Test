@@ -1,0 +1,27 @@
+package Q1;
+
+public class Characteristic {
+	
+	public final int Wheel = 4;
+	public final int doors = 4;
+	public final int seats = 5;
+	public int Maxspeed;
+	
+	public int getMaxspeed() {
+		return Maxspeed;
+	}
+	public void setMaxspeed(int maxspeed) {
+		Maxspeed = maxspeed;
+	}
+	
+	
+	public void Info()
+	{
+		System.out.println("wheel = "+ Wheel);
+		System.out.println("doors = "+ doors);
+		System.out.println("Seats = "+ seats);
+		System.out.println("maxSpeed = "+ this.Maxspeed);
+	}
+
+	}
+

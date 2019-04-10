@@ -1,0 +1,14 @@
+package Question1;
+
+public class ToyotaCar extends Characteristic {  // use keyword "extends" to inherit method and parameter of super class Characteristic
+	public void run() {
+		
+		int Maxspeed = 100;
+		System.out.println("Toyota Car Characteristic");
+		super.Info();
+		for (int i = 0; i < 10; i++) {
+			System.out.println((i+1) +".Maxpeed = " + Maxspeed);
+		}
+	}
+
+}

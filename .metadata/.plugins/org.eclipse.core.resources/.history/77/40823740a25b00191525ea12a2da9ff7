@@ -1,0 +1,26 @@
+package Queation2;
+
+public class main {
+
+	public static void main(String[] args) 
+	{
+		Characteristic CharacteristicObject = new ToyotaCar();
+		System.out.println("Toyota Car Characteristic");
+		CharacteristicObject.wheel();
+		CharacteristicObject.doors();
+		CharacteristicObject.seats();
+		CharacteristicObject.maxSpeed();
+		
+		Characteristic BMWObject = new BMWCar();
+		System.out.println("BMW Characteristic");
+		CharacteristicObject.wheel();
+		CharacteristicObject.doors();
+		CharacteristicObject.seats();
+		CharacteristicObject.maxSpeed();
+		
+
+
+
+	}
+
+}

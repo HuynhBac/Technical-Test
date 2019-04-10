@@ -1,0 +1,10 @@
+package Queation2;
+
+public interface Characteristic {
+	public void wheel();
+	public void doors();
+	public void seats();
+	public void maxSpeed();
+
+	
+}

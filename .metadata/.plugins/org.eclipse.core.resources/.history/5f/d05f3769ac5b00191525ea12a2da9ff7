@@ -1,0 +1,22 @@
+package Question4;
+
+public class Number1 extends Thread 
+{
+
+	@Override
+	public synchronized void run() {
+		int Number1 = 100;
+		while (1==1)
+		{
+			System.out.println(Number1);
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
+}

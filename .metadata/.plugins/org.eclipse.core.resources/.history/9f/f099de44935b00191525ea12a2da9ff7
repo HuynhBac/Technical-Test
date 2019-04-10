@@ -1,0 +1,13 @@
+package Q1;
+
+public class main {
+
+	public static void main(String[] args) 
+	{
+		ToyotaCar TCarObject = new ToyotaCar();
+		TCarObject.Info();
+				
+
+	}
+
+}

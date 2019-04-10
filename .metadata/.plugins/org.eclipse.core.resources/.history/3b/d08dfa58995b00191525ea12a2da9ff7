@@ -1,0 +1,36 @@
+package Q1;
+
+public class Characteristic {
+	
+	public int Wheel;
+	public int doors;
+	public int seats;
+	
+	public int getWheel() {
+		return Wheel;
+	}
+	public void setWheel(int wheel) {
+		this.Wheel = wheel;
+	}
+	public int getDoors() {
+		return doors;
+	}
+	public void setDoors(int doors) {
+		this.doors = doors;
+	}
+	public int getSeat() {
+		return seats;
+	}
+	public void setSeat(int seats) {
+		this.seats = seats;
+	}
+	
+	public void Info()
+	{
+		System.out.println("wheel = "+ this.getWheel());
+		System.out.println("doors = "+ this.getDoors());
+		System.out.println("Seats = "+ this.seats);
+	}
+
+	}
+

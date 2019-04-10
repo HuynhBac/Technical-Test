@@ -1,0 +1,24 @@
+package Q1;
+
+public class BMWCar extends Characteristic{
+	public int maxSpeed2 = 200;
+	
+	
+	public int getMaxSpeed2() {
+		return maxSpeed2;
+	}
+
+
+	public void setMaxSpeed2(int maxSpeed2) {
+		this.maxSpeed2 = maxSpeed2;
+	}
+
+
+	public void Info()
+	{
+		System.out.println("BMW Car Characteristic");
+		super.Info();
+		System.out.println("Maxspeed = " + maxSpeed2);
+		
+	}
+}

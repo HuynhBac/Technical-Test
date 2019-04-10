@@ -1,0 +1,50 @@
+package Queation2;
+
+public class ToyotaCar implements Characteristic,ToyotaMaxSpeed {
+
+	@Override
+	public void wheel() {
+		int wheel = 4;
+		System.out.println("Wheel = " + wheel);
+		
+	}
+
+	@Override
+	public void doors() {
+		int doors = 4;
+		System.out.println("Wheel = " + doors);
+		
+	}
+
+	@Override
+	public void seats() {
+		int seats = 5;
+		System.out.println("Wheel = " + seats);
+		
+	}
+
+	@Override
+	public void maxSpeed1() {
+		int maxSpeed = 100;
+		for (int i=0;i<10;i++)
+		{
+			System.out.println((i+1)+"maxSpeed" + maxSpeed);
+		}
+		
+	}
+
+	} 
+	
+	
+//	public void run() {
+//		
+//		final int Maxspeed = 100;
+//		System.out.println("Toyota Car Characteristic");
+//		super.Info();
+//		for (int i = 0; i < 10; i++) {
+//			System.out.println((i+1) +".Maxspeed = " + Maxspeed);
+//		}
+//		System.out.println("--------------------------");
+//	}
+
+

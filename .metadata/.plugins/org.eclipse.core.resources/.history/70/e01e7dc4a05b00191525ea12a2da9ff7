@@ -1,0 +1,13 @@
+package Queation2;
+
+public class main {
+
+	public static void main(String[] args) 
+	{
+		Characteristic CharacteristicObject = new ToyotaCar();
+		System.out.println("sad");
+		CharacteristicObject.wheel();
+
+	}
+
+}

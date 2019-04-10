@@ -1,0 +1,15 @@
+package Q1;
+
+public class main {
+
+	public static void main(String[] args) 
+	{
+		Characteristic CharacterObject = new Characteristic();
+		
+		ToyotaCar TCarObject = new ToyotaCar();
+		TCarObject.Info();
+				
+
+	}
+
+}
