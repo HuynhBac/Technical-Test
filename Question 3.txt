@@ -1,0 +1,4 @@
+In the question 1, the outputs in run in 1 process from up to down, Class ToyotaCar and BMWCar inherit the methods and parameters from superclass Characteristic
+But in the question 2, we set 2 class ToyotaCar and BMWCar into 2 thread and they run parallel, they also implement from default interface Runnable.
+
+To make sure the question 2 ill procedure the order just like question 1, we set method thread1.joint()- wait the thread1(Toyota Car) die then run thead2(BMW Car)
